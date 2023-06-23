@@ -1,0 +1,71 @@
+*
+{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --carousel-cap:#4c2e10;
+    --carousel-bg:#f4f3f1;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.container > .navbar-brand
+{
+   color: #4c2e10;
+   font-weight: 700;
+   font-family: opificio;
+}
+.carousel-item > .d-block
+{
+    height: 480px;
+    width: 100%;
+}
+.carousel-caption
+{
+    background-color:var(--carousel-bg) ;
+    color: var(--carousel-cap);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.arrow-button
+{
+    position:fixed;
+    bottom: 30px;
+    right: 50px;
+    z-index: 9;
+}
+
+.arrow-button a{
+    width: 70px;
+    height: 67px;
+    text-align: center;
+    background-color: #f4f3f1;
+    color: #333;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arrow-button a span{
+    color: #333;
+    line-height: 67px;
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: opificio;
+    src: url('../font/opificio-font/OpificioLight-oYgx.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: opificio;
+    src: url('../font/opificio-font/OpificioBold-XYqG.ttf');
+    font-weight: 700;
+}
