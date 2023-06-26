@@ -1,18 +1,19 @@
 *
 {
-    margin:0px;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
 :root
 {
-    --carousel-cap:#4c2e10;
+    --carousel-cap:#1e1a16;
     --carousel-bg:#f4f3f1;
 }
 
 html
 {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 /* Header CSS */
 .container > .navbar-brand

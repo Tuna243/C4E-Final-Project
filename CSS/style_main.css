@@ -1,0 +1,121 @@
+*{
+    margin : 0 auto;
+    padding : 0;
+    box-sizing: border-box;
+}
+/* brand-card  */
+.card-brand
+{
+    width: 100%;
+    background-color: #f4f6f5;
+    font-family:opacity;
+    font-weight:700px;
+    font-size: 22px;
+}
+.card-brand >.card-brand-logo > .brand-icon > a > img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.dealTitle > .dealTitle-hot
+{
+    font-family:opificio;
+    font-weight:700;
+    font-size: 45px;
+    color: #4c2e10;
+}
+
+.dealTitle-tag > .dealTitle-tag-details
+{
+    font-family:opificio;
+    font-weight:700;
+}
+/* brand-card  */
+/* ----------------------------------------------------------- */
+/* About us */
+.siteAbout-content > .siteAbout-content--heading
+{
+    font-family:opificio;
+    font-weight:700;
+    font-size: 45px;
+    color: #4c2e10;
+}
+.siteAbout-btn
+
+{
+    width: 130px;
+    height: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: none;
+    border-radius: 5px;
+}
+.siteAbout-btn > a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+.siteAboutDsc-content > .siteAboutDsc-content--item > .contentItems-heading
+{
+    font-family:opificio;
+    font-weight:700;
+    font-size: 25px;
+    color: #4c2e10;
+}
+
+.siteAboutDsc-content > .siteAboutDsc-content--item >.contentItems-tag
+{
+    font-family:opificio;
+    font-weight:500;
+}
+
+.siteAboutDsc-image--item:hover
+{
+    scale: 105%;
+}
+/* About us */
+/* ----------------------------------------------------------- */
+/* siteProduct */
+
+.siteProductBar > .siteProductTitle
+{
+    font-family:opificio;
+    font-weight:700;
+    font-size: 45px;
+    color: #4c2e10;
+}
+.text-primary
+{
+    color:#4c2e10 !important;
+}
+.siteProductList  {
+    background-color: #f4f6f5;
+    height: 100%;
+}
+.productList-img span{
+    top:30px;
+    right:30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #c0a27e;
+}
+
+@font-face {
+    font-family: opificio;
+    src: url('../font/opificio-font/OpificioLight-oYgx.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: opificio;
+    src: url('../font/opificio-font/OpificioBold-XYqG.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: opificio;
+    src: url('../font/opificio-font/OpificioBold-XYqG.ttf');
+    font-weight: 1200;
+}
