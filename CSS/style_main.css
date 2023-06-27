@@ -101,7 +101,21 @@
     border-radius: 50%;
     background-color: #c0a27e;
 }
+/* siteProduct */
+/* --------------------------------------- */
+/* sitePreviews */
 
+.reviews
+{
+    background-color: #f4f6f5;
+}
+.reviews .box-container .box{
+    background-color: #fff;
+}
+.reviews .box-container .box img{
+    width: auto;
+    height: 18rem;
+}
 @font-face {
     font-family: opificio;
     src: url('../font/opificio-font/OpificioLight-oYgx.ttf');
