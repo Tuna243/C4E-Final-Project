@@ -18,13 +18,13 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse text-end" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-3 ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home"><strong>Home</strong></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="./aboutus.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#feature"> Feature </a>
@@ -33,13 +33,68 @@
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
-          </div>
-          <div class="col-md-2 text-end">
-            <button type="button" class="btn btn-outline-warning text-black-50 me-2">Login</button>
-            <button type="button" class="btn btn-dark">Sign-up</button>
-          </div>
+            <button type="button" class="btnLogin-popup">Login</button>
+          </div>   
         </div>
       </nav>
+      
+      <!-- wrapper -->
+    <div class="container text-center">
+        <div class="wrapper">
+          <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+          <div class="form-box login"> 
+              <h2>Login</h2>
+              <form action="#">
+                  <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                  </div>
+                  <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                  </div>
+                  <div class="remember-forgot">
+                      <label ><input type="checkbox">Remember me</label>
+                      <a href="#">Forgot Password?</a>
+                  </div>
+                  <button type="submit" class="btn border-dark bg-light">Login </button>
+                  <div class="login-register">
+                      <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                  </div>
+              </form>
+          </div>
+          <div class="form-box register"> 
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="text" required>
+                <label>Username</label>
+              </div>
+                <div class="input-box">
+                  <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                  <input type="email" required>
+                  <label>Email</label>
+                </div>
+                <div class="input-box">
+                  <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                  <input type="password" required>
+                  <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label ><input type="checkbox">Agree to the terms & condition</label>
+                </div>
+                <button type="submit" class="btn border-dark bg-light">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login </a></p>
+                </div>
+            </form>
+          </div>
+        </div>
+   </div>
+    <!-- carousel -->
       <div class="container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -81,6 +136,8 @@
             </div>
       </div>
    </header>
+   
+
    <!-- Main landing page -->
    <main>
    <div class="row card-brand mt-5">
@@ -362,8 +419,8 @@
     <!-- section reviews -->
     <section class="reviews" id="reviews">
       <h1 class="heading text-center mt-3">Satisfied clients</h1>
-      <div class="box-container container row container-fluid">
-          <div class="box col-md-6 col-lg-4 col-xl-3 p-1 mt-auto mb-3">
+      <div class="box-container container row container-fluid ">
+          <div class="box align-items-start col-md-6 col-lg-4 col-xl-3 p-1  mb-3">
             <img class="img-fluid" src="./Image/Clients/Joanna Gaines.jpg" alt="Personal">
               <div class="start">
                 <i class="fas fa-star"></i>
@@ -376,7 +433,7 @@
               <h3>Joanna Gaines</h3>
               <span>Satisfied clients</span>
           </div>
-          <div class="box col-md-6 col-lg-4 col-xl-3 p-1 mt-auto mb-3">
+          <div class="box align-items-start col-md-6 col-lg-4 col-xl-3 p-1 mb-3">
             <img class="img-fluid" src="./Image/Clients/Wendell-Castle-furniture.jpg" alt="Personal">
               <div class="start">
                 <i class="fas fa-star"></i>
@@ -389,7 +446,7 @@
               <h3>Wendell</h3>
               <span>Satisfied clients</span>
           </div>
-          <div class="box col-md-6 col-lg-4 col-xl-3 p-1 mt-auto mb-3">
+          <div class="box col-md-6 col-lg-4 col-xl-3 p-1 mb-3">
             <img class="img-fluid" src="./Image/Clients/Nate Berkus.jpg" alt="Personal">
               <div class="start">
                 <i class="fas fa-star"></i>
@@ -529,6 +586,8 @@
       </div> 
    </footer>
    <script src="./JS/index.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
    <script src="https://api-c4e.onrender.com/furniture"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

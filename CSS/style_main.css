@@ -72,7 +72,8 @@
 
 .siteAboutDsc-image--item:hover
 {
-    scale: 105%;
+    transform: scale(1.03);
+    transition: transform .5s ease;
 }
 /* About us */
 /* ----------------------------------------------------------- */
