@@ -102,6 +102,11 @@
     border-radius: 50%;
     background-color: #c0a27e;
 }
+
+.siteProductMenu li:hover
+{
+    text-decoration: underline;
+}
 /* siteProduct */
 /* --------------------------------------- */
 /* sitePreviews */
