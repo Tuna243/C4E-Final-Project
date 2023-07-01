@@ -6,16 +6,18 @@
 /* brand-card  */
 .card-brand
 {
-    width: 100%;
+    max-width: 100% !important;
     background-color: #f4f6f5;
     font-family:opacity;
     font-weight:700px;
     font-size: 22px;
 }
-.card-brand >.card-brand-logo > .brand-icon > a > img
+
+.card-brand-logo > .brand-icon > img
 {
-    width: 100%;
+    width: 75%;
     height: 100%;
+
 }
 
 .dealTitle > .dealTitle-hot
@@ -122,6 +124,14 @@
     width: auto;
     height: 18rem;
 }
+
+.box-container .box p{
+    max-height: 174px;
+    overflow: hidden;
+    white-space:normal;
+    text-overflow:ellipsis;
+}
+
 @font-face {
     font-family: opificio;
     src: url('../font/opificio-font/OpificioLight-oYgx.ttf');
