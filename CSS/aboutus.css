@@ -9,13 +9,41 @@
     --carousel-cap:#4c2e10;
     --carousel-bg:#f4f3f1;
 }
+header{
+    position:relative;
+}
 .body{
     width:1200px;
     margin: 20px auto;
     color:#4c2e10;
     padding:20px;
 }
+.title-box
+{
+    display: flex;
+    justify-content: center;
+}
+.title-box img
+{
+    max-height: 450px;
+}
+.title-box h1{
+    position: relative;
+}
+.story-box
+{
+    display: flex;
+    justify-content: center;
+}
+.story-box img
+{
+    max-height: 450px;
+    max-width: 75%;
+}
 
+.title-box .story-heading{
+    position: relative;
+}
 .text-title{
     position:absolute;
     bottom: 10px;
